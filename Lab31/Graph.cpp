@@ -26,6 +26,7 @@ int minm[maxn]; // Минимальный путь
 
 Graph<int> makeGraph() {
 	//======
+
 	int verts[6] = { 1, 2, 3, 4, 5, 6 };
 	int sourceVertexs[9] = { 1, 3, 2, 3, 1, 5, 5, 4, 4 };
 	int targetVertexs[9] = { 3, 2, 6, 5, 5, 6, 4, 6, 1};
